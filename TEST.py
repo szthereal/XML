@@ -80,7 +80,7 @@ def generate_sepa_xml(virements, iban, bic, company_name):
 
 
 # --- Interface Streamlit ---
-st.title("💶 Générateur de fichier SEPA XML")
+st.title("💶 Générateur de fichier SEPA Credit Transfer (SCT) XML")
 st.write("Déposez un fichier CSV contenant vos virements pour générer un fichier XML SEPA conforme.")
 
 with st.expander("📘 Exemple de format CSV attendu", expanded=False):
